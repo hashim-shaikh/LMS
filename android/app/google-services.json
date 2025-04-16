@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "105879855601",
+    "project_id": "chandrakalm-b310f",
+    "storage_bucket": "chandrakalm-b310f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105879855601:android:6d8dd7e3daf806c5c7e450",
+        "android_client_info": {
+          "package_name": "com.techpanda.chandrakalm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105879855601-3to01cp10dkm97dc9qvftklt15lkc3ep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techpanda.chandrakalm",
+            "certificate_hash": "eaee633a6a92f131188fdfb3d43d663142815282"
+          }
+        },
+        {
+          "client_id": "105879855601-hni6aq24o7fpj4pmedjsrtu4qjbodkk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArCtnEe450ShdoNbQ3mjNtXF_jBCH99g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105879855601-hni6aq24o7fpj4pmedjsrtu4qjbodkk8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105879855601-n98dmd50kjj57e70uul7lvkcghfgbulr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techpanda.chandrakalm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
