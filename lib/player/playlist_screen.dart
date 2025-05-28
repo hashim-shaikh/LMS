@@ -351,7 +351,7 @@ class _PlayListScreenState extends State<PlayListScreen>
     else if (downloadBtnTxt == 'Cancel Download')
       btnIcon = Icon(
         Icons.clear,
-        color: Colors.red,
+        color: Colors.purple,
         size: 30.0,
       );
     else if (downloadBtnTxt == 'Resume Download')
@@ -363,7 +363,7 @@ class _PlayListScreenState extends State<PlayListScreen>
     else if (downloadBtnTxt == 'Delete Download')
       btnIcon = Icon(
         Icons.delete,
-        color: Colors.red,
+        color: Colors.purple,
         size: 28.0,
       );
     else
@@ -452,7 +452,7 @@ class _PlayListScreenState extends State<PlayListScreen>
                                   return AlertDialog(
                                     title: Text(
                                       translate("Are_you_sure"),
-                                      style: TextStyle(color: Colors.red),
+                                      style: TextStyle(color: Colors.purple),
                                     ),
                                     content: Text(translate(
                                         "Do_you_want_to_delete_download")),
@@ -567,7 +567,7 @@ class _PlayListScreenState extends State<PlayListScreen>
                               .format(lessClip.dateTime!),
                       toastLength: Toast.LENGTH_LONG,
                       gravity: ToastGravity.CENTER,
-                      backgroundColor: Colors.red,
+                      backgroundColor: Colors.purple,
                       textColor: Colors.white,
                       fontSize: 16.0);
                 }
@@ -1725,7 +1725,7 @@ class _PlayListScreenState extends State<PlayListScreen>
                     ? SizedBox.shrink()
                     : showBottomNavigation
                         ? FloatingActionButton.extended(
-                            backgroundColor: Color(0xffF44A4A),
+                            backgroundColor: Colors.purple,
                             onPressed: () async {
                               setState(() {
                                 isLoadingMark = true;

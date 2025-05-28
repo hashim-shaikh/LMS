@@ -94,7 +94,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                   child: Center(
                     child: CircularProgressIndicator(
                       valueColor:
-                          AlwaysStoppedAnimation<Color>(Color(0xffF44A4A)),
+                          AlwaysStoppedAnimation<Color>(Colors.purple),
                     ),
                   ),
                 )
@@ -298,7 +298,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
         } else
           return Center(
             child: CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffF44A4A)),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
             ),
           );
       },

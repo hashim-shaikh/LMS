@@ -48,7 +48,7 @@ class _FilterScreenState extends State<FilterScreen> {
     return RangeSlider(
         min: 0,
         max: 1000,
-        activeColor: Colors.red,
+        activeColor: Colors.purple,
         inactiveColor: Colors.grey,
         values: values,
         onChanged: (value) {
@@ -138,7 +138,7 @@ class _FilterScreenState extends State<FilterScreen> {
                         details.minprice * 1.0, details.maxprice * 1.0),
                     min: 0,
                     max: 100000,
-                    activeColor: Colors.red,
+                    activeColor: Colors.purple,
                     inactiveColor: Colors.grey,
                     onChanged: (values) {
                       setState(() {
@@ -163,7 +163,7 @@ class _FilterScreenState extends State<FilterScreen> {
             Container(
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.purple,
                 ),
                 onPressed: () {
                   Navigator.of(context).pop();

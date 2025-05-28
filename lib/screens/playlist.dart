@@ -48,7 +48,7 @@ class _VideoDetailState extends State<VideoDetail>
         _buildVideoPlayer(context),
         TabBar(
           unselectedLabelColor: Colors.black,
-          labelColor: Colors.red,
+          labelColor: Colors.purple,
           tabs: [
             Tab(
               icon: Icon(Icons.people),
@@ -158,7 +158,7 @@ class _VideoDetailState extends State<VideoDetail>
             onPressed: () {},
             icon: Icon(
               Icons.play_circle_filled,
-              color: Colors.red,
+              color: Colors.purple,
             ),
           )
         ],

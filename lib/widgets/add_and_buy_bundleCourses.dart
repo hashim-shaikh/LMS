@@ -72,7 +72,7 @@ class _AddAndBuyBundleState extends State<AddAndBuyBundle> {
         height: 55.0,
         width: MediaQuery.of(context).size.width - 50,
         decoration: BoxDecoration(
-            color: Color(0xfff44a4a),
+            color: Colors.purple,
             border: Border.all(width: 1.0, color: Colors.black12),
             borderRadius: BorderRadius.circular(10.0)),
         child: Stack(

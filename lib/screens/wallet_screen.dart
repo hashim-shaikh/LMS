@@ -180,7 +180,7 @@ class _WalletScreenState extends State<WalletScreen> {
                                     bottom: 15.0),
                                 child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      backgroundColor: Color(0xfff44a4a),
+                                      backgroundColor: Colors.purple,
                                       elevation: 0.0
                                       //  Colors.green,
                                       ),

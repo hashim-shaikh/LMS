@@ -80,7 +80,7 @@ class _TopUpWalletScreenState extends State<TopUpWalletScreen> {
                   Center(
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.red,
+                        backgroundColor: Colors.purple,
                       ),
                       onPressed: () {
                         setState(() {

@@ -121,7 +121,7 @@ class BundleCourseItem extends StatelessWidget {
                                       style: TextStyle(
                                           fontWeight: FontWeight.w500,
                                           fontSize: 18.0,
-                                          color: Colors.red))
+                                          color: Colors.purple))
                                 ],
                               )
                             : Column(
@@ -148,7 +148,7 @@ class BundleCourseItem extends StatelessWidget {
                                               style: TextStyle(
                                                   fontWeight: FontWeight.w500,
                                                   fontSize: 18.0,
-                                                  color: Colors.red))
+                                                  color: Colors.purple))
                                 ],
                               ),
                       ],

@@ -291,7 +291,7 @@ class HistoryItemsList extends StatelessWidget {
           backgroundColor: Color(0xFFF1F3F8),
           body: !snapshot.hasData
               ? Center(
-                  child: CircularProgressIndicator(color: Color(0xfff44a4a)),
+                  child: CircularProgressIndicator(color: Colors.purple),
                 )
               : snapshot.data!.length == 0
                   ? whenNull()

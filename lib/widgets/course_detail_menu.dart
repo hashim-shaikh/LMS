@@ -380,7 +380,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
                 msg: translate("Already_watching_from_another_device"),
                 toastLength: Toast.LENGTH_LONG,
                 gravity: ToastGravity.CENTER,
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 fontSize: 16.0,
               );
@@ -425,7 +425,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
                 msg: translate("Already_watching_from_another_device"),
                 toastLength: Toast.LENGTH_LONG,
                 gravity: ToastGravity.CENTER,
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 fontSize: 16.0,
               );
@@ -442,7 +442,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
           if (x) {
             Fluttertoast.showToast(
               msg: translate("Complaint_received_We_will_check_it"),
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.purple,
               textColor: Colors.white,
               toastLength: Toast.LENGTH_LONG,
             );
@@ -458,7 +458,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
           } else {
             Fluttertoast.showToast(
               msg: translate("Complaint_sending_failed_Retry_later"),
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.purple,
               textColor: Colors.white,
               toastLength: Toast.LENGTH_LONG,
             );
@@ -479,7 +479,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
             await wishListProvider.removeWishList(widget.details.course!.id);
             Fluttertoast.showToast(
               msg: translate("Course_removed_from_Wish_List"),
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.purple,
               textColor: Colors.white,
               toastLength: Toast.LENGTH_LONG,
             );
@@ -494,7 +494,7 @@ class _CourseDetailMenuScreenState extends State<CourseDetailMenuScreen> {
 
             Fluttertoast.showToast(
               msg: translate("Course_added_to_Wish_List"),
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.purple,
               textColor: Colors.white,
               toastLength: Toast.LENGTH_LONG,
             );

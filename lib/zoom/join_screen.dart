@@ -85,7 +85,7 @@ class _JoinWidgetState extends State<JoinWidget> {
                           } else {
                             await Fluttertoast.showToast(
                               msg: translate("Please_enter_Meeting_Password"),
-                              backgroundColor: Colors.red,
+                              backgroundColor: Colors.purple,
                               textColor: Colors.white,
                               toastLength: Toast.LENGTH_LONG,
                             );
@@ -114,7 +114,7 @@ class _JoinWidgetState extends State<JoinWidget> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text("N/A"),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.purple,
       ),
     );
   }

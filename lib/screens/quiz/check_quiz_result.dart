@@ -81,7 +81,7 @@ class CheckQuizResult extends StatelessWidget {
           Text(
             HtmlUnescape().convert("${answers![index]}"),
             style: TextStyle(
-                color: correct ? Colors.green : Colors.red,
+                color: correct ? Colors.green : Colors.purple,
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold),
           ),

@@ -120,7 +120,7 @@ class HomePage extends StatelessWidget {
                 },
                 child: CircleAvatar(
                   child: Icon(Icons.close),
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.purple,
                 ),
               ),
             ),

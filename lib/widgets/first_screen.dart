@@ -150,7 +150,7 @@ class ScreenState extends State<Screen> with TickerProviderStateMixin {
                       borderRadius: BorderRadius.circular(20.0)),
                   child: Icon(
                     FontAwesomeIcons.question,
-                    color: Colors.red,
+                    color: Colors.purple,
                   ),
                 ),
                 Container(
@@ -171,7 +171,7 @@ class ScreenState extends State<Screen> with TickerProviderStateMixin {
                             height: 10.0,
                             width: 4.0,
                             decoration: BoxDecoration(
-                                color: Colors.red,
+                                color: Colors.purple,
                                 borderRadius: BorderRadius.circular(5.0)),
                           );
                         }
@@ -211,7 +211,7 @@ class ScreenState extends State<Screen> with TickerProviderStateMixin {
                       borderRadius: BorderRadius.circular(20.0)),
                   child: Icon(
                     FontAwesomeIcons.hashtag,
-                    color: Colors.red,
+                    color: Colors.purple,
                   ),
                 ),
                 Container(
@@ -232,7 +232,7 @@ class ScreenState extends State<Screen> with TickerProviderStateMixin {
                             height: 10.0,
                             width: 4.0,
                             decoration: BoxDecoration(
-                                color: Colors.red,
+                                color: Colors.purple,
                                 borderRadius: BorderRadius.circular(5.0)),
                           );
                         }
@@ -269,7 +269,7 @@ class ScreenState extends State<Screen> with TickerProviderStateMixin {
 
   Widget floatingButton(bool ispur) {
     return FloatingActionButton.extended(
-        backgroundColor: Color(0xffF44A4A),
+        backgroundColor: Colors.purple,
         onPressed: () {
           Course details = widget.courses[openedidxs[openedidxs.length - 1]];
           setState(() {

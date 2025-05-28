@@ -51,7 +51,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                       Text(
                         translate('No_Downloads'),
                         style: TextStyle(
-                          color: Colors.red,
+                          color: Colors.purple,
                           fontSize: 25.0,
                           fontWeight: FontWeight.w600,
                           letterSpacing: 1.0,

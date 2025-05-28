@@ -218,7 +218,7 @@ class _TestimonialListState extends State<TestimonialList> {
           content: Scaffold(
             appBar: AppBar(
               automaticallyImplyLeading: false,
-              backgroundColor: Color(0xFFF44A4A),
+              backgroundColor: Colors.purple,
               actions: [
                 Builder(
                   builder: (context) {
@@ -255,7 +255,7 @@ class _TestimonialListState extends State<TestimonialList> {
               height: 70,
               child: CircleAvatar(
                 radius: 35.0,
-                backgroundColor: Color(0xFFF44A4A),
+                backgroundColor: Colors.purple,
                 backgroundImage: testimonial.image == null
                     ? AssetImage("assets/placeholder/avatar.png")
                         as ImageProvider

@@ -513,7 +513,7 @@ class _BecomeInstructorState extends State<BecomeInstructor> {
         imagepickerfield(borderClr),
         resumePicker(borderClr),
         inputField(translate("Detail_"), user.detail!, 4, borderClr),
-        submitButton(Colors.red),
+        submitButton(Colors.purple),
         SizedBox(
           height: 20,
         )

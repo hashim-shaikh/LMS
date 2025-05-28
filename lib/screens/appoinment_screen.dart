@@ -88,7 +88,7 @@ class _AppointmentScreenState extends State<AppointmentScreen> {
     } else {
       Fluttertoast.showToast(
           msg: translate("Something_went_wrong"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white);
     }
   }

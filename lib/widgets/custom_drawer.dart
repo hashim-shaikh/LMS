@@ -35,10 +35,10 @@ class _CustomDrawerState extends State<CustomDrawer> {
           children: [
             CircleAvatar(
               radius: 38.0,
-              backgroundColor: Colors.white,
+              backgroundColor: Colors.purple,
               backgroundImage: user.profileInstance.userImg == null ||
                       user.profileInstance.userImg == ""
-                  ? AssetImage("assets/placeholder/avatar.png") as ImageProvider
+                  ? AssetImage("assets/images/abstract-textured-backgound.jpg") as ImageProvider
                   : CachedNetworkImageProvider(
                       APIData.userImage + "${user.profileInstance.userImg}",
                     ),
@@ -93,8 +93,8 @@ class _CustomDrawerState extends State<CustomDrawer> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xFF6E1A52),
               Color(0xFFF44A4A),
+              Colors.purple,
             ]),
         boxShadow: [
           BoxShadow(
@@ -258,7 +258,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
             },
           ),
           SizedBox(height: 20.0),
-          logoutSection(Colors.red),
+          logoutSection(Colors.purple),
           SizedBox(height: 10.0),
         ],
       ),

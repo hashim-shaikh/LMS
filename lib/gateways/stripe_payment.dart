@@ -540,7 +540,7 @@ class StripePaymentScreenState extends State<StripePaymentScreen> {
             children: <Widget>[
               ProfileTile(
                 title: "Oops!",
-                textColor: Colors.red,
+                textColor: Colors.purple,
                 subtitle: "Your transaction was rejected",
               ),
               ListTile(

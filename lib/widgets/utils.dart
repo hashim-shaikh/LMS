@@ -96,7 +96,7 @@ Widget whenEmptyWishlist(BuildContext context) {
               height: 50,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.red,
+                  color: Colors.purple,
                   boxShadow: [
                     BoxShadow(
                         color: Color(0x1c2464).withOpacity(0.30),
@@ -220,7 +220,7 @@ Widget whenEmptyStudying(BuildContext context) {
                   height: 50,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      color: Colors.red,
+                      color: Colors.purple,
                       boxShadow: [
                         BoxShadow(
                             color: Color(0x1c2464).withOpacity(0.30),

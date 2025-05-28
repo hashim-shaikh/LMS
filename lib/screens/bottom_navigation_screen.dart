@@ -233,7 +233,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
                 ),
                 Icon(
                   CustomIcons.home_color,
-                  color: Color.fromRGBO(240, 75, 75, 1.0),
+                  color: Colors.purple,
                 ),
               ],
             ),
@@ -249,7 +249,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
                 ),
                 Icon(
                   CustomIcons.courses_color,
-                  color: Color.fromRGBO(240, 75, 75, 1.0),
+                  color: Colors.purple,
                 ),
               ],
             ),
@@ -265,7 +265,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
                 ),
                 Icon(
                   CustomIcons.categories_color,
-                  color: Color.fromRGBO(240, 75, 75, 1.0),
+                  color: Colors.purple,
                 ),
               ],
             ),
@@ -281,7 +281,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
                 ),
                 Icon(
                   CustomIcons.cart_color,
-                  color: Color.fromRGBO(240, 75, 75, 1.0),
+                  color: Colors.purple,
                 ),
               ],
             ),
@@ -296,7 +296,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
                 ),
                 Icon(
                   CustomIcons.settings_color,
-                  color: Color.fromRGBO(240, 75, 75, 1.0),
+                  color: Colors.purple,
                 ),
               ],
             ),

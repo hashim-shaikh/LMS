@@ -70,7 +70,7 @@ class _InvoiceLoadingScreenState extends State<InvoiceLoadingScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
           ),
           Text(
             'Loading',

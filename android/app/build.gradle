@@ -55,7 +55,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.techpanda.chandrakalm"
+        applicationId "com.chandrakalm.jewellery"
         minSdkVersion 26
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()

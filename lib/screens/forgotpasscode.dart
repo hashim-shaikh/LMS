@@ -30,7 +30,7 @@ class _CoderesetState extends State<Codereset> {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.purple,
                 ),
                 onPressed: () async {
                   if (codeCtrl.text.isNotEmpty) {

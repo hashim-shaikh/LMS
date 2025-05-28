@@ -40,7 +40,7 @@ class PhoneField extends StatelessWidget {
           errorStyle: TextStyle(
               color: Colors.white, fontFamily: "Muli", fontSize: 12.0),
           errorBorder: UnderlineInputBorder(
-              borderSide: BorderSide(color: Color(0xFFF44A4A))),
+              borderSide: BorderSide(color: Colors.purple)),
           focusedErrorBorder: UnderlineInputBorder(
               borderSide: BorderSide(color: Colors.white, width: 2.0)),
           focusedBorder: UnderlineInputBorder(

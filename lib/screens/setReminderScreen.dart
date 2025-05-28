@@ -49,7 +49,7 @@ class _SetReminderScreenState extends State<SetReminderScreen> {
       body: LoadingOverlay(
         isLoading: isSaving,
         progressIndicator: CircularProgressIndicator(
-          color: Colors.red,
+          color: Colors.purple,
         ),
         child: SingleChildScrollView(
           child: Container(
@@ -150,7 +150,7 @@ class _SetReminderScreenState extends State<SetReminderScreen> {
                     child: ElevatedButton(
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
-                          Color(0xfff44a4a),
+                          Colors.purple,
                         ),
                       ),
                       onPressed: () async {

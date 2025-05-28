@@ -265,7 +265,7 @@ class _CartScreenState extends State<CartScreen> {
               IconButton(
                 onPressed: deleteCoupon,
                 icon: Icon(FontAwesomeIcons.circleXmark,
-                    color: Color(0xFFF44A4A), size: 20),
+                    color: Colors.purple, size: 20),
               )
             ],
           ),
@@ -541,12 +541,12 @@ class _CartScreenState extends State<CartScreen> {
                               child: isLoadingDelItemId == detail.id
                                   ? CircularProgressIndicator(
                                       valueColor: AlwaysStoppedAnimation<Color>(
-                                          Color(0xffF44A4A)),
+                                          Colors.purple),
                                     )
                                   : Icon(
                                       FontAwesomeIcons.trashCan,
                                       size: 22,
-                                      color: Colors.red,
+                                      color: Colors.purple,
                                     ),
                             ),
                           )
@@ -762,7 +762,7 @@ class _CartScreenState extends State<CartScreen> {
                                     Fluttertoast.showToast(
                                       msg: translate(
                                           "Item_deleted_from_your_cart"),
-                                      backgroundColor: Colors.red,
+                                      backgroundColor: Colors.purple,
                                       textColor: Colors.white,
                                       toastLength: Toast.LENGTH_LONG,
                                     );
@@ -794,12 +794,12 @@ class _CartScreenState extends State<CartScreen> {
                                           ? CircularProgressIndicator(
                                               valueColor:
                                                   AlwaysStoppedAnimation<Color>(
-                                                      Color(0xffF44A4A)),
+                                                      Colors.purple),
                                             )
                                           : Icon(
                                               FontAwesomeIcons.trashCan,
                                               size: 22,
-                                              color: Colors.red,
+                                              color: Colors.purple,
                                             ),
                                 ))
                           ],
@@ -966,7 +966,7 @@ class _CartScreenState extends State<CartScreen> {
                                         : Icon(
                                             FontAwesomeIcons.trashCan,
                                             size: 22,
-                                            color: Colors.red,
+                                            color: Colors.purple,
                                           ),
                                   ))
                             ],
@@ -1020,7 +1020,7 @@ class _CartScreenState extends State<CartScreen> {
       body: _visible == false
           ? Center(
               child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
               ),
             )
           : getCartItems(cartCourseList, cartBundleList!),

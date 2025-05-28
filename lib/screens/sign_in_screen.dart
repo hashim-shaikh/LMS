@@ -323,7 +323,7 @@ class _SignInScreenState extends State<SignInScreen>
                 ),
                 icon: Icon(
                   FontAwesomeIcons.google,
-                  color: Colors.red,
+                  color: Colors.purple,
                 ),
                 onPressed: () async {
                   signInWithGoogle().then((result) {
@@ -402,7 +402,7 @@ class _SignInScreenState extends State<SignInScreen>
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
                           content: Text('Guest Sign-in failed!'),
-                          backgroundColor: Colors.red,
+                          backgroundColor: Colors.purple,
                           duration: Duration(seconds: 5),
                         ),
                       );
@@ -714,7 +714,7 @@ class _SignInScreenState extends State<SignInScreen>
                         children: [
                           CircularProgressIndicator(
                             valueColor: AlwaysStoppedAnimation<Color>(
-                              Color(0xFFF44A4A),
+                              Colors.purple,
                             ),
                           ),
                         ],

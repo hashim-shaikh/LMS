@@ -315,7 +315,7 @@ class _ResumeAndStartState extends State<ResumeAndStart> {
                 children: [
                   Material(
                     borderRadius: BorderRadius.circular(10),
-                    color: Colors.red,
+                    color: Colors.purple,
                     child: InkWell(
                       borderRadius: BorderRadius.circular(10),
                       onTap: () {
@@ -345,7 +345,7 @@ class _ResumeAndStartState extends State<ResumeAndStart> {
                                     "Already_watching_from_another_device"),
                                 toastLength: Toast.LENGTH_LONG,
                                 gravity: ToastGravity.CENTER,
-                                backgroundColor: Colors.red,
+                                backgroundColor: Colors.purple,
                                 textColor: Colors.white,
                                 fontSize: 16.0);
                           }
@@ -437,7 +437,7 @@ class _ResumeAndStartState extends State<ResumeAndStart> {
                                     "Already_watching_from_another_device"),
                                 toastLength: Toast.LENGTH_LONG,
                                 gravity: ToastGravity.CENTER,
-                                backgroundColor: Colors.red,
+                                backgroundColor: Colors.purple,
                                 textColor: Colors.white,
                                 fontSize: 16.0);
                           }

@@ -26,7 +26,7 @@ class AddAndBuy extends StatefulWidget {
 class _AddAndBuyState extends State<AddAndBuy> {
   Widget addToCart(bool inCart) {
     return Material(
-      color: Color(0xfff44a4a),
+      color: Colors.purple,
       borderRadius: BorderRadius.circular(10),
       child: InkWell(
         borderRadius: BorderRadius.circular(10),
@@ -45,7 +45,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
 
               Fluttertoast.showToast(
                 msg: translate("Course_added_to_your_cart"),
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 toastLength: Toast.LENGTH_LONG,
               );
@@ -62,7 +62,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
             } else {
               Fluttertoast.showToast(
                 msg: translate("Go_to_Cart_Section"),
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 toastLength: Toast.LENGTH_LONG,
               );
@@ -162,7 +162,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
             } else {
               Fluttertoast.showToast(
                 msg: translate("Go_to_Cart_Section"),
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 toastLength: Toast.LENGTH_LONG,
               );
@@ -322,7 +322,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }
@@ -340,7 +340,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }
@@ -348,7 +348,7 @@ class _AddAndBuyState extends State<AddAndBuy> {
 
   Widget enrollNowButton() {
     return Material(
-      color: Color(0xfff44a4a),
+      color: Colors.purple,
       borderRadius: BorderRadius.circular(10),
       child: InkWell(
         borderRadius: BorderRadius.circular(10),

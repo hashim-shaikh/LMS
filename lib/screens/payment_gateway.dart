@@ -62,7 +62,7 @@ class _PaymentGatewayState extends State<PaymentGateway> {
               height: 50.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(4.0),
-                color: Color(0xFFF44A4A),
+                color: Colors.purple,
                 gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,

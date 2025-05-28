@@ -169,7 +169,7 @@ class Studentfeedback extends StatelessWidget {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }
@@ -187,7 +187,7 @@ class Studentfeedback extends StatelessWidget {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }

@@ -114,7 +114,7 @@ class MyApp extends StatelessWidget {
           ],
           supportedLocales: localizationDelegate.supportedLocales,
           locale: localizationDelegate.currentLocale,
-          home: token == null ? SignInScreen() : LoadingScreen(token),
+          home: token == null ? LoadingScreen(token) : SignInScreen(),
           debugShowCheckedModeBanner: false,
           theme: ThemeData(fontFamily: 'Mada'),
           routes: {

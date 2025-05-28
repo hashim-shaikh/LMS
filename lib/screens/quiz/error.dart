@@ -41,7 +41,7 @@ class ErrorPage extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.w500,
-                          color: Colors.red),
+                          color: Colors.purple),
                     ),
                     SizedBox(height: 20.0),
                     ElevatedButton(

@@ -1,6 +1,6 @@
 class APIData {
   // Replace with your domain link : http://example.com/public/
-  static const String domainLink = "https://autoline.digiatto.online/";
+  static const String domainLink = "http://chandrakalm.shop/";
   static const String domainApiLink = domainLink + "api/";
 
   // API Links
@@ -159,7 +159,8 @@ class APIData {
 
   // Constants
   static const String appName = "Chandrakalm";
-  static const String secretKey = "ENTER_APP_SECRET_KEY_HERE";
+  static const String secretKey = 'e9c23a9d-d3fe-415c-967f-b7e3db20f276';
+
 
   // Replace with your android app id
   static const String androidAppId = 'ENTER_ANDROID_APP_PACKAGE_NAME_HERE';
@@ -206,7 +207,7 @@ class APIData {
   static const String messagingSenderIdIos = '105879855601';
   static const String projectIdIos = 'chandrakalm-b310f';
   static const String storageBucketIos = 'chandrakalm-b310f.firebasestorage.app';
-  static const String iosBundleId = 'com.techpanda.chandrakalm';
+  static const String iosBundleId = 'com.chandrakalm.jewellery';
 
 /* ------ FireBase Settings End ------ */
 }

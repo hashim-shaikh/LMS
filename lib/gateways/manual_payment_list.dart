@@ -71,7 +71,7 @@ class _ManualPaymentListState extends State<ManualPaymentList> {
                       msg: translate("Not_Active"),
                       toastLength: Toast.LENGTH_SHORT,
                       gravity: ToastGravity.CENTER,
-                      backgroundColor: Colors.red,
+                      backgroundColor: Colors.purple,
                       textColor: Colors.white,
                       fontSize: 16.0,
                     );

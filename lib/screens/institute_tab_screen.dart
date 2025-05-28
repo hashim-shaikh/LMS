@@ -29,7 +29,7 @@ class _InstituteTabScreenState extends State<InstituteTabScreen> {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
           ),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           bottom: TabBar(
             tabs: _tabs,
             isScrollable: true,

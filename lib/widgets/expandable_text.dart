@@ -28,7 +28,7 @@ class ExpandableTextState extends State<ExpandableText> {
         text: _readMore
             ? "... ${translate("see_more")}"
             : " ${translate("see_less")}",
-        style: TextStyle(color: Colors.red, fontFamily: 'Mada'),
+        style: TextStyle(color: Colors.purple, fontFamily: 'Mada'),
         recognizer: TapGestureRecognizer()..onTap = _onTapLink);
     Widget result = LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {

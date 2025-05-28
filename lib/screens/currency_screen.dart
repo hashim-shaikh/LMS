@@ -48,7 +48,7 @@ class _CurrencyScreenState extends State<CurrencyScreen> {
       body: LoadingOverlay(
         isLoading: isLoading,
         progressIndicator: CircularProgressIndicator(
-          color: Colors.red,
+          color: Colors.purple,
         ),
         child: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -135,7 +135,7 @@ class _CurrencyScreenState extends State<CurrencyScreen> {
                   SizedBox(height: 20),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xfff44a4a), elevation: 0.0),
+                        backgroundColor: Colors.purple, elevation: 0.0),
                     onPressed: () async {
                       setState(() {
                         isLoading = true;
@@ -172,7 +172,7 @@ class _CurrencyScreenState extends State<CurrencyScreen> {
                                   translate(translate("Currency_didnt_Change")),
                               toastLength: Toast.LENGTH_LONG,
                               gravity: ToastGravity.CENTER,
-                              backgroundColor: Colors.red,
+                              backgroundColor: Colors.purple,
                               textColor: Colors.white,
                               fontSize: 16.0);
                           setState(() {

@@ -42,7 +42,8 @@ class _SettingScreenState extends State<SettingScreen> {
           onPressed: () {
             if (idx == 0) {
               Navigator.pushNamed(context, "/becameInstructor");
-            } else if (idx == 1) {
+            } else
+              if (idx == 1) {
               Navigator.pushNamed(context, "/aboutUs");
             } else if (idx == 2) {
               Navigator.pushNamed(context, "/contactUs");
@@ -129,8 +130,8 @@ class _SettingScreenState extends State<SettingScreen> {
         ),
         child: Column(
           children: [
-            supportTile(0, FontAwesomeIcons.circleQuestion,
-                translate("Become_an_Instructor"), txtColor),
+            // supportTile(0, FontAwesomeIcons.circleQuestion,
+            //     translate("Become_an_Instructor"), txtColor),
             supportTile(1, FontAwesomeIcons.shieldVirus, translate("About_Us"),
                 txtColor),
             supportTile(2, FontAwesomeIcons.facebookMessenger,
@@ -140,7 +141,8 @@ class _SettingScreenState extends State<SettingScreen> {
             supportTile(4, FontAwesomeIcons.handshakeAngle,
                 translate("Instructor_FAQ"), txtColor),
           ],
-        ));
+        )
+    );
   }
 
   // Widget to render all player tiles

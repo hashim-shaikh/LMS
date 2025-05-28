@@ -162,7 +162,7 @@ class _ManualPaymentState extends State<ManualPayment> {
   Widget submitButton() {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.purple,
       ),
       onPressed: () async {
         if (proofCtrl.text.length > 0) {
@@ -225,7 +225,7 @@ class _ManualPaymentState extends State<ManualPayment> {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
     if (sharedPreferences.containsKey("topUpWallet")) {
-      Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.red);
+      Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.purple);
       return false;
     } else if (!sharedPreferences.containsKey("giftUserId")) {
       String url = APIData.payStore + APIData.secretKey;

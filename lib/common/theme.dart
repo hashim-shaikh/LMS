@@ -10,8 +10,8 @@ class Theme with ChangeNotifier {
   }
 
   List<Color> gradientColors = [
-    Color(0xFF6E1A52),
     Color(0xFFF44A4A),
+    Color(0xFF6E1A52),
   ];
 
   Color boxShadowColor = Color(0x1c2464);

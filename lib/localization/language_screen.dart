@@ -52,7 +52,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
       body: LoadingOverlay(
         isLoading: isLoading,
         progressIndicator: CircularProgressIndicator(
-          color: Colors.red,
+          color: Colors.purple,
         ),
         child: SingleChildScrollView(
           child: Padding(
@@ -121,7 +121,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                             labelText: translate("Language_"),
                             focusedBorder: OutlineInputBorder(
                               borderSide: BorderSide(
-                                color: Colors.red,
+                                color: Colors.purple,
                                 width: 2,
                               ),
                             ),
@@ -138,7 +138,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                             horizontal: 20.0,
                           ),
                           decoration: BoxDecoration(
-                            color: Color(0xfff44a4a),
+                            color: Colors.purple,
                             shape: BoxShape.rectangle,
                             borderRadius: BorderRadius.all(
                               Radius.circular(30.0),
@@ -204,7 +204,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                     },
                     child: CircleAvatar(
                       child: Icon(Icons.close),
-                      backgroundColor: Colors.red,
+                      backgroundColor: Colors.purple,
                     ),
                   ),
                 ),

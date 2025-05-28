@@ -1,4 +1,4 @@
-package com.techpanda.chandrakalm
+package com.chandrakalm.jewellery
 
 import io.flutter.embedding.android.FlutterActivity
 import android.view.WindowManager.LayoutParams

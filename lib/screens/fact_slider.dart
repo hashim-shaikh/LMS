@@ -93,8 +93,8 @@ class _FactSliderState extends State<FactSlider> with TickerProviderStateMixin {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Color(0xFF6E1A52),
                 Color(0xFFF44A4A),
+                Colors.purple,
               ]),
           borderRadius: BorderRadius.circular(15.0),
           boxShadow: [

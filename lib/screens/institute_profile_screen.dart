@@ -135,7 +135,7 @@ class _InstituteProfileScreenState extends State<InstituteProfileScreen> {
                                   "${snapshot.data!.institute!.first.status}" ==
                                           "1"
                                       ? Colors.green
-                                      : Colors.red,
+                                      : Colors.purple,
                               borderRadius: BorderRadius.circular(5.0),
                             ),
                             child: Text(
@@ -160,7 +160,7 @@ class _InstituteProfileScreenState extends State<InstituteProfileScreen> {
                                   "${snapshot.data!.institute!.first.verified}" ==
                                           "1"
                                       ? Colors.green
-                                      : Colors.red,
+                                      : Colors.purple,
                               borderRadius: BorderRadius.circular(5.0),
                             ),
                             child: Text(

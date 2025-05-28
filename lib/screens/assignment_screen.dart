@@ -133,7 +133,7 @@ class _AssignmentScreenState extends State<AssignmentScreen> {
       Fluttertoast.showToast(
           msg: translate("Assignment_submission_failed"),
           textColor: Colors.white,
-          backgroundColor: Colors.red);
+          backgroundColor: Colors.purple);
     }
   }
 

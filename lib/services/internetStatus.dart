@@ -22,7 +22,7 @@ void listenInternetStatus(BuildContext context) async {
                 fontSize: 18.0,
               ),
             ),
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
           ),
         );
       } else {

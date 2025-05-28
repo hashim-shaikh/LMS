@@ -86,7 +86,7 @@ class _EditProfileState extends State<EditProfile> {
   Widget _getEditIcon() {
     return new InkWell(
       child: new CircleAvatar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.purple,
         radius: 20.0,
         child: new Icon(
           Icons.camera_alt,
@@ -339,7 +339,7 @@ class _EditProfileState extends State<EditProfile> {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
               ),
               onPressed: () async {
                 UserProfile user =
@@ -367,6 +367,7 @@ class _EditProfileState extends State<EditProfile> {
                           ),
                         ),
                       );
+                      Navigator.of(context).pop();
                     } else {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
@@ -469,7 +470,7 @@ class _EditProfileState extends State<EditProfile> {
             style: TextStyle(
               fontFamily: 'Mada',
               fontWeight: FontWeight.w700,
-              color: Colors.red,
+              color: Colors.purple,
             ),
           ),
           content: Text(

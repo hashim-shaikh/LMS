@@ -73,7 +73,7 @@ class _GiftCourseScreenState extends State<GiftCourseScreen> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }
@@ -89,7 +89,7 @@ class _GiftCourseScreenState extends State<GiftCourseScreen> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
     }
@@ -182,7 +182,7 @@ class _GiftCourseScreenState extends State<GiftCourseScreen> {
                 ),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.purple,
                   ),
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {

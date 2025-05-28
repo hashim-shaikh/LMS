@@ -53,7 +53,7 @@ class _JitsiMeetingJoinState extends State<JitsiMeetingJoin> {
         child: ElevatedButton(
           onPressed: () {
             _joinMeeting();
-            Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.red);
+            Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.purple);
           },
           child: Text(
             "Join Meeting Now",

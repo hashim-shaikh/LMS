@@ -1,51 +1,26 @@
 {
   "project_info": {
-    "project_number": "105879855601",
-    "project_id": "chandrakalm-b310f",
-    "storage_bucket": "chandrakalm-b310f.firebasestorage.app"
+    "project_number": "1046583917929",
+    "project_id": "chandrakalm-121",
+    "storage_bucket": "chandrakalm-121.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:105879855601:android:6d8dd7e3daf806c5c7e450",
+        "mobilesdk_app_id": "1:1046583917929:android:ec5ada6d0bba2da38651f8",
         "android_client_info": {
-          "package_name": "com.techpanda.chandrakalm"
+          "package_name": "com.chandrakalm.jewellery"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "105879855601-3to01cp10dkm97dc9qvftklt15lkc3ep.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.techpanda.chandrakalm",
-            "certificate_hash": "eaee633a6a92f131188fdfb3d43d663142815282"
-          }
-        },
-        {
-          "client_id": "105879855601-hni6aq24o7fpj4pmedjsrtu4qjbodkk8.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyArCtnEe450ShdoNbQ3mjNtXF_jBCH99g4"
+          "current_key": "AIzaSyBAT8ARmGbP6xIYVoxYmoROqpZ5vMD2IGw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105879855601-hni6aq24o7fpj4pmedjsrtu4qjbodkk8.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "105879855601-n98dmd50kjj57e70uul7lvkcghfgbulr.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.techpanda.chandrakalm"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -89,7 +89,7 @@ class _PdfViewerState extends State<PdfViewer> {
                   } catch (e) {
                     Fluttertoast.showToast(
                         msg: translate("Already_Saved_in_Download_Folder"),
-                        backgroundColor: Colors.red,
+                        backgroundColor: Colors.purple,
                         textColor: Colors.white);
                   }
                 }

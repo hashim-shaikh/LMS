@@ -19,8 +19,7 @@ class UserDetailsProvider with ChangeNotifier {
   ValidationItemDate get getDOB => dob;
 
   bool get getSignInPhone => phoneNo.value == null ? false : true;
-  bool get getSignInEmail =>
-      email.value != null && password.value != null ? true : false;
+  bool get getSignInEmail => email.value != null && password.value != null ? true : false;
 
   bool get getSignUp {
     if (getFirstName.value != null &&

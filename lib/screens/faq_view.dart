@@ -68,7 +68,7 @@ class _FaqViewState extends State<FaqView> {
         return !snapshot.hasData
             ? Center(
                 child: CircularProgressIndicator(
-                  color: Color(0xfff44a4a),
+                  color: Colors.purple,
                 ),
               )
             : Scaffold(

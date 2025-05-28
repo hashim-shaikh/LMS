@@ -60,7 +60,7 @@ class _CertificateLoadingScreenState extends State<CertificateLoadingScreen> {
     } else if (response.statusCode == 400) {
       await Fluttertoast.showToast(
           msg: translate("Please_Complete_your_course_to_get_certificate"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           toastLength: Toast.LENGTH_LONG);
       Navigator.pop(context);
@@ -106,7 +106,7 @@ class _CertificateLoadingScreenState extends State<CertificateLoadingScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
           ),
           Text(
             'Loading',

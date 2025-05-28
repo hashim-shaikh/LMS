@@ -180,7 +180,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
           inputField(translate("Phone_"), 1, borderClr),
           inputField(translate("Email_"), 2, borderClr),
           inputField(translate("Your_Message"), 3, borderClr),
-          submitButton(Color(0xffF44A4A))
+          submitButton(Colors.purple)
         ],
       ),
     );

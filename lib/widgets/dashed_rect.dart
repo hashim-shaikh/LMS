@@ -29,7 +29,7 @@ class DashRectPainter extends CustomPainter {
   double gap;
 
   DashRectPainter(
-      {this.strokeWidth = 5.0, this.color = Colors.red, this.gap = 5.0});
+      {this.strokeWidth = 5.0, this.color = Colors.purple, this.gap = 5.0});
 
   @override
   void paint(Canvas canvas, Size size) {

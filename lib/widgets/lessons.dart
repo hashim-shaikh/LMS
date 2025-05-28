@@ -413,7 +413,7 @@ class _LessonsState extends State<Lessons> {
                   msg: translate("Already_watching_from_another_device"),
                   toastLength: Toast.LENGTH_LONG,
                   gravity: ToastGravity.CENTER,
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.purple,
                   textColor: Colors.white,
                   fontSize: 16.0);
             }
@@ -472,7 +472,7 @@ class _LessonsState extends State<Lessons> {
                 msg: translate("Already_watching_from_another_device"),
                 toastLength: Toast.LENGTH_LONG,
                 gravity: ToastGravity.CENTER,
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.purple,
                 textColor: Colors.white,
                 fontSize: 16.0);
           }
@@ -550,7 +550,7 @@ class _LessonsState extends State<Lessons> {
             msg: translate("Already_watching_from_another_device"),
             toastLength: Toast.LENGTH_LONG,
             gravity: ToastGravity.CENTER,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
             textColor: Colors.white,
             fontSize: 16.0);
       }

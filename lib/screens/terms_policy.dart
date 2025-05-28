@@ -49,7 +49,7 @@ class _TermsPolicyState extends State<TermsPolicy> {
       body: isLoading
           ? Center(
               child: CircularProgressIndicator(
-                color: Colors.red,
+                color: Colors.purple,
               ),
             )
           : SingleChildScrollView(
@@ -78,7 +78,7 @@ class _TermsPolicyState extends State<TermsPolicy> {
                     Divider(
                       height: 30.0,
                       thickness: 2.0,
-                      color: Colors.red,
+                      color: Colors.purple,
                     ),
                     Text(
                       "Policy",

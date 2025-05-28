@@ -367,7 +367,7 @@ class _CompareCourseScreenState extends State<CompareCourseScreen> {
                   color: "${compareCourse.compares!.first.certificateEnable}" ==
                           "1"
                       ? Colors.green
-                      : Colors.red,
+                      : Colors.purple,
                 ),
               ),
             ),
@@ -380,7 +380,7 @@ class _CompareCourseScreenState extends State<CompareCourseScreen> {
                   color: "${compareCourse.compares!.first.appointmentEnable}" ==
                           "1"
                       ? Colors.green
-                      : Colors.red,
+                      : Colors.purple,
                 ),
               ),
             ),
@@ -393,7 +393,7 @@ class _CompareCourseScreenState extends State<CompareCourseScreen> {
                   color:
                       "${compareCourse.compares!.first.assignmentEnable}" == "1"
                           ? Colors.green
-                          : Colors.red,
+                          : Colors.purple,
                 ),
               ),
             ),
@@ -406,7 +406,7 @@ class _CompareCourseScreenState extends State<CompareCourseScreen> {
                   child: Container(
                     padding: EdgeInsets.symmetric(vertical: 2, horizontal: 5),
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: Colors.purple,
                       borderRadius: BorderRadius.circular(15.0),
                     ),
                     child: Row(

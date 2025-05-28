@@ -435,7 +435,7 @@ class AboutUsView extends StatelessWidget {
       builder: (BuildContext context, AsyncSnapshot<List<About>> snapshot) {
         return !snapshot.hasData
             ? Center(
-                child: CircularProgressIndicator(color: Color(0xfff44a4a)),
+                child: CircularProgressIndicator(color: Colors.purple),
               )
             : Scaffold(
                 backgroundColor: mode.bgcolor,

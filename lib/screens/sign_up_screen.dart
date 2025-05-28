@@ -238,7 +238,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         height: 65,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-            color: Colors.red, borderRadius: BorderRadius.circular(3.0)),
+            color: Colors.purple, borderRadius: BorderRadius.circular(3.0)),
         child: !isloading
             ? Text(
                 "Sign Up",

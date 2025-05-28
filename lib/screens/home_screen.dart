@@ -104,9 +104,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 65,
                     child: CircleAvatar(
                       radius: 32.5,
-                      backgroundColor: Color(0xFFF44A4A),
+                      backgroundColor: Colors.purple,
                       backgroundImage: imageUrl == null
-                          ? AssetImage("assets/placeholder/avatar.png")
+                          ? AssetImage("assets/images/abstract-textured-backgound.jpg")
                               as ImageProvider
                           : CachedNetworkImageProvider(
                               APIData.userImage + imageUrl),
@@ -234,12 +234,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: () {
                       showSearch(context: context, delegate: Search(list));
                     },
-                    hoverColor: Colors.red,
+                    hoverColor: Colors.purple,
                     child: Container(
                       height: 63,
                       width: 60,
                       decoration: BoxDecoration(
-                          color: Color(0xffF44A4A),
+                          color: Colors.purple,
                           borderRadius: BorderRadius.circular(10.0),
                           boxShadow: [
                             BoxShadow(

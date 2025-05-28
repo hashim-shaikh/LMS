@@ -103,7 +103,7 @@ class _WalletPaymentState extends State<WalletPayment> {
                           style: TextStyle(
                             fontSize: 30.0,
                             fontWeight: FontWeight.w700,
-                            color: Colors.red,
+                            color: Colors.purple,
                           ),
                         ),
                         SizedBox(height: 10),
@@ -136,7 +136,7 @@ class _WalletPaymentState extends State<WalletPayment> {
         SharedPreferences sharedPreferences =
             await SharedPreferences.getInstance();
         if (sharedPreferences.containsKey("topUpWallet")) {
-          Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.red);
+          Fluttertoast.showToast(msg: "N/A", backgroundColor: Colors.purple);
           return;
         }
         sendPaymentDetails(transactionId, "wallet");

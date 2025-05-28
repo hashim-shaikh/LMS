@@ -111,7 +111,7 @@ class _BundleDetailScreenState extends State<BundleDetailScreen> {
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 22.0,
-                      color: Colors.red,
+                      color: Colors.purple,
                     ),
                   ),
               Container(

@@ -65,7 +65,7 @@ class _QuizScreenState extends State<QuizScreen> {
         body: LoadingOverlay(
           isLoading: isSubmiting,
           progressIndicator: CircularProgressIndicator(
-            color: Colors.red,
+            color: Colors.purple,
           ),
           child: Padding(
             padding: const EdgeInsets.all(18.0),
@@ -396,7 +396,7 @@ class _QuizScreenState extends State<QuizScreen> {
             msg: translate("Failed_"),
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.CENTER,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
             textColor: Colors.white,
             fontSize: 16.0);
         await Future.delayed(Duration(seconds: 3));
@@ -407,7 +407,7 @@ class _QuizScreenState extends State<QuizScreen> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
       await Future.delayed(Duration(seconds: 3));

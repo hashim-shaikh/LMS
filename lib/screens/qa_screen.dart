@@ -81,7 +81,7 @@ class _QAScreenState extends State<QAScreen> {
     } else {
       Fluttertoast.showToast(
           msg: translate("Answer_submission_failed"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white);
     }
   }
@@ -132,7 +132,7 @@ class _QAScreenState extends State<QAScreen> {
     } else {
       Fluttertoast.showToast(
           msg: translate("Question_submission_failed"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white);
     }
   }

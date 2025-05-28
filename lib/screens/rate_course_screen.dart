@@ -107,7 +107,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
             msg: translate("Already_Reviewed_"),
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.CENTER,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
             textColor: Colors.white,
             fontSize: 16.0);
         await Future.delayed(Duration(seconds: 3));
@@ -119,7 +119,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
             msg: translate("Failed_"),
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.CENTER,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
             textColor: Colors.white,
             fontSize: 16.0);
         await Future.delayed(Duration(seconds: 3));
@@ -133,7 +133,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
           msg: translate("Failed_"),
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.CENTER,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
           textColor: Colors.white,
           fontSize: 16.0);
       await Future.delayed(Duration(seconds: 3));
@@ -212,7 +212,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
       body: LoadingOverlay(
         isLoading: isSubmitting,
         progressIndicator: CircularProgressIndicator(
-          color: Colors.red,
+          color: Colors.purple,
         ),
         child: Container(
           padding: EdgeInsets.all(10.0),
@@ -561,7 +561,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
                     TextFormField(
                       minLines: 2,
                       maxLines: 100,
-                      cursorColor: Colors.red,
+                      cursorColor: Colors.purple,
                       decoration: new InputDecoration(
                         border: InputBorder.none,
                         focusedBorder: InputBorder.none,
@@ -585,7 +585,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
                     ElevatedButton(
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
-                          Color(0xfff44a4a),
+                          Colors.purple,
                         ),
                         shape:
                             MaterialStateProperty.all<RoundedRectangleBorder>(
@@ -603,7 +603,7 @@ class _RateCourseScreenState extends State<RateCourseScreen> {
                                 return AlertDialog(
                                   title: Text(
                                     translate("Are_you_sure"),
-                                    style: TextStyle(color: Colors.red),
+                                    style: TextStyle(color: Colors.purple),
                                   ),
                                   content: Text(translate(
                                       "Do_you_want_to_the_submit_review")),

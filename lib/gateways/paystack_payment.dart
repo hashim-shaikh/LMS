@@ -225,7 +225,7 @@ class _PayStackPageState extends State<PayStackPage> {
       } else {
         Fluttertoast.showToast(
           msg: "Paystack Payment Public Key is not available.",
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.purple,
         );
       }
       setState(() {
@@ -397,7 +397,7 @@ class _PayStackPageState extends State<PayStackPage> {
     } else {
       Fluttertoast.showToast(
         msg: "Paystack Payment Public Key is not available.",
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.purple,
       );
     }
   }

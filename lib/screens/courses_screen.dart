@@ -42,7 +42,7 @@ class _CoursesScreenState extends State<CoursesScreen> {
           color: txtColor,
         ),
       ),
-      iconEnabledColor: Colors.red,
+      iconEnabledColor: Colors.purple,
       isDense: true,
       isExpanded: true,
       items: [

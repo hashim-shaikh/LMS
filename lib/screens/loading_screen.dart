@@ -63,13 +63,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
       mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.max,
       children: [
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset("assets/images/logo.png"),
-          ],
-        ),
+        Image.asset("assets/images/logo.png"),
         SizedBox(
           height: 20,
         ),
@@ -78,7 +72,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xFFF44A4A)),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
             ),
           ],
         )

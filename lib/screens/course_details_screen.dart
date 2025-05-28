@@ -160,7 +160,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
             msg: translate("You_cant_access_this_course"),
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.CENTER,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.purple,
             textColor: Colors.white,
             fontSize: 16.0);
         Future.delayed(Duration(seconds: 3));
@@ -480,7 +480,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
               style: TextStyle(
                   fontWeight: FontWeight.w500,
                   fontSize: 22.0,
-                  color: Colors.red)),
+                  color: Colors.purple)),
         Container(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Text(
@@ -616,7 +616,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color:
-                          tabIndex == 0 ? Color(0xfff44a4a) : Colors.grey[600],
+                          tabIndex == 0 ? Colors.purple : Colors.grey[600],
                     ),
                   ),
                 ),
@@ -643,7 +643,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: tabIndex == 1
-                            ? Color(0xfff44a4a)
+                            ? Colors.purple
                             : Colors.grey[600]),
                   ),
                 ),
@@ -839,7 +839,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
                           child: Center(
                             child: CircularProgressIndicator(
                               valueColor:
-                                  new AlwaysStoppedAnimation<Color>(Colors.red),
+                                  new AlwaysStoppedAnimation<Color>(Colors.purple),
                             ),
                           ),
                         );
@@ -856,7 +856,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
                       child: ElevatedButton(
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(
-                            Color(0xfff44a4a),
+                            Colors.purple,
                           ),
                           shape:
                               MaterialStateProperty.all<RoundedRectangleBorder>(
@@ -1022,7 +1022,7 @@ class _CourseDetailScreenState extends State<CourseDetailScreen>
         } else {
           return Center(
             child: CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
             ),
           );
         }
